@@ -59,7 +59,7 @@ function Blog(props) {
                                 component="img"
                                 height="300"
                                 image={blog1}
-                                alt="Paella dish"
+                                alt="photo"
                             />
                             <CardContent>
                                 <Typography variant="body2" color="text.secondary">
@@ -93,7 +93,7 @@ function Blog(props) {
                                 component="img"
                                 height="300"
                                 image={blog2}
-                                alt="Paella dish"
+                                alt="photo"
                             />
                             <CardContent>
                                 <Typography variant="body2" color="text.secondary">
@@ -127,7 +127,7 @@ function Blog(props) {
                                 component="img"
                                 height="300"
                                 image={blog3}
-                                alt="Paella dish"
+                                alt="photo"
                             />
                             <CardContent>
                                 <Typography variant="body2" color="text.secondary">
@@ -161,7 +161,7 @@ function Blog(props) {
                                 component="img"
                                 height="300"
                                 image={blog4}
-                                alt="Paella dish"
+                                alt="photo"
                             />
                             <CardContent>
                                 <Typography variant="body2" color="text.secondary">
@@ -195,7 +195,7 @@ function Blog(props) {
                                 component="img"
                                 height="300"
                                 image={blog5}
-                                alt="Paella dish"
+                                alt="photo"
                             />
                             <CardContent>
                                 <Typography variant="body2" color="text.secondary">
@@ -222,14 +222,14 @@ function Blog(props) {
                                     <MoreVertIcon />
                                 </IconButton>
                                 }
-                                title="Shrimp and Chorizo Paella"
+                                title="타임스퀘어 주렁주렁 데이트"
                                 subheader="October 29, 2021"
                             />
                             <CardMedia
                                 component="img"
                                 height="300"
                                 image={blog6}
-                                alt="Paella dish"
+                                alt="photo"
                             />
                             <CardContent>
                                 <Typography variant="body2" color="text.secondary">
