@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import Clock from './Clock';
-import { Form, FormControl, Button } from 'react-bootstrap';
 import style from './App.module.css';
 
 
 const Ddaycounter = () => {
     const [deadline, setDeadline] = useState('September 18, 2021')
-    const [newDeadline, setNewDeadline] = useState('')
+    const [newDeadline] = useState('')
   
     const changeDeadline = () => {
       setDeadline(newDeadline);
     };
+    console.log(changeDeadline)
   
     return (
       <div className={style.App}>
