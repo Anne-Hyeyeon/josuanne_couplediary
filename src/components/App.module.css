@@ -1,0 +1,22 @@
+.App {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 100px;
+    font-family: 'Nanum Myeongjo';
+    background-image: url(../assets/heart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    color: rgba(0,0,0,0.6)
+}
+
+.App__title {
+    font-weight: 800;
+    font-size: 50px;
+
+}
+
+.App__days {
+    font-size: 100px;
+}
+
