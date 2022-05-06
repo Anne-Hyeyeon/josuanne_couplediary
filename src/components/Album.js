@@ -2,7 +2,6 @@ import React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import { Container } from '@mui/material';
-import { IconButton } from '@mui/material';
 import FavoriteTwoToneIcon from '@mui/icons-material/FavoriteTwoTone';
 import album1 from '../assets/images/album1.jpeg'
 import album2 from '../assets/images/album2.jpeg'
