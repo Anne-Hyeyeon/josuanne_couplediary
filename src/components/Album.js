@@ -100,7 +100,7 @@ const itemData = [
                     textDecoration: 'underline'
                  }}>
                     <IconButton aria-label="add to favorites">
-                    <FavoriteTwoToneIcon />
+                    <FavoriteTwoToneIcon sx={{ "&:hover" : { fontSize:30 } }} />
                     </IconButton>
                     Photos
                 </div>
