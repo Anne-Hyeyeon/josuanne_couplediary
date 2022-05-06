@@ -202,7 +202,7 @@ function Blog(props) {
                                 민재가 주일마다 예배 드리러 가는 걸 보고 한번쯤 꼭 가보고 싶다고 생각했는데, 이렇게 빨리 교회에 나가게 될 줄은 몰랐지!! 예전에는 일 주일에 한 번씩 영어 회화 스터디에서 만났는데, 지금은 교회에서 만나는 우리 커플 ㅎㅎ 함께 예배드리니 행복해!
                                 </Typography>
                             </CardContent>
-                            <CardActions disableSpacing>s
+                            <CardActions disableSpacing>
                                 <IconButton aria-label="add to favorites">
                                 <FavoriteIcon />
                                 </IconButton>
