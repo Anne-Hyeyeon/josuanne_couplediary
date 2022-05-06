@@ -99,9 +99,7 @@ const itemData = [
                     color: 'rgba(0,0,0,0.6)',
                     textDecoration: 'underline'
                  }}>
-                    <IconButton aria-label="add to favorites">
                     <FavoriteTwoToneIcon sx={{ "&:hover" : { fontSize:30 } }} />
-                    </IconButton>
                     Photos
                 </div>
       <ImageList
