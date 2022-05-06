@@ -198,7 +198,7 @@ function Blog(props) {
                             />
                             <CardContent>
                                 <Typography variant="body2" color="text.secondary">
-                                민재가 주일마다 예배 드리러 가는 걸 보고 한번쯤 꼭 가보고 싶다고 생각했는데, 이렇게 빨리 교회에 나가게 될 줄은 몰랐지! 예전에는 일 주일에 한 번씩 영어 회화 스터디에서 봤는데, 이젠 주일마다 함께 교회로 고고하게 되었넹ㅎㅎ 기쁜 마음으로 함께 예배드리니 행복해!
+                                민재가 주일마다 예배 드리러 가는 걸 보고 꼭 가보고 싶다고 생각했는데, 이렇게 빨리 교회에 나가게 될 줄은 몰랐지! 이젠 주일마다 함께 교회로 고고하게 되었넹ㅎㅎ 기쁜 마음으로 함께 예배드리니 행복하고 즐겁다!
                                 </Typography>
                             </CardContent>
                             <CardActions disableSpacing>
