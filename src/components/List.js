@@ -10,19 +10,16 @@ function List(props) {
           field: 'restaurant',
           headerName: 'restaurant',
           width: 200,
-          editable: true,
         },
         {
           field: 'location',
           headerName: 'location',
           width: 300,
-          editable: true,
         },
         {
             field: 'description',
             headerName: 'description',
             width: 540,
-            editable: true,
           },
   
 
