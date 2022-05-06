@@ -33,9 +33,7 @@ function Blog(props) {
                     color: 'rgba(0,0,0,0.6)',
                     textDecoration: 'underline'
                  }}>
-                    <IconButton aria-label="add to favorites">
-                    <FavoriteTwoToneIcon />
-                    </IconButton>
+                    <FavoriteTwoToneIcon sx={{ "&:hover" : { fontSize:30 } }} />
                     Moments
                 </div>
                 <Grid container spacing={3}>
@@ -48,7 +46,8 @@ function Blog(props) {
                                 </Avatar>
                                 }
                                 action={
-                                <IconButton aria-label="settings">
+                                <IconButton aria-label="settings" 
+                                 >
                                     <MoreVertIcon />
                                 </IconButton>
                                 }
@@ -67,8 +66,8 @@ function Blog(props) {
                                 </Typography>
                             </CardContent>
                             <CardActions disableSpacing>
-                                <IconButton aria-label="add to favorites">
-                                <FavoriteIcon />
+                                <IconButton aria-label="add to favorites" sx={{ "&:hover" : { color : 'red'}}} onClick={()=>{alert("좋아요♥︎")}}>
+                                <FavoriteIcon /> 
                                 </IconButton>
                             </CardActions>
                     </Card>
@@ -101,7 +100,7 @@ function Blog(props) {
                                 </Typography>
                             </CardContent>
                             <CardActions disableSpacing>
-                                <IconButton aria-label="add to favorites">
+                            <IconButton aria-label="add to favorites" sx={{ "&:hover" : { color : 'red'}}} onClick={()=>{alert("좋아요♥︎")}}>
                                 <FavoriteIcon />
                                 </IconButton>
                             </CardActions>
@@ -135,7 +134,7 @@ function Blog(props) {
                                 </Typography>
                             </CardContent>
                             <CardActions disableSpacing>
-                                <IconButton aria-label="add to favorites">
+                            <IconButton aria-label="add to favorites" sx={{ "&:hover" : { color : 'red'}}} onClick={()=>{alert("좋아요♥︎")}}>
                                 <FavoriteIcon />
                                 </IconButton>
                             </CardActions>
@@ -169,7 +168,7 @@ function Blog(props) {
                                 </Typography>
                             </CardContent>
                             <CardActions disableSpacing>
-                                <IconButton aria-label="add to favorites">
+                            <IconButton aria-label="add to favorites" sx={{ "&:hover" : { color : 'red'}}} onClick={()=>{alert("좋아요♥︎")}}>
                                 <FavoriteIcon />
                                 </IconButton>
                             </CardActions>
@@ -195,15 +194,15 @@ function Blog(props) {
                                 component="img"
                                 height="300"
                                 image={blog5}
-                                alt="photo"s
+                                alt="photo"
                             />
                             <CardContent>
                                 <Typography variant="body2" color="text.secondary">
-                                민재가 주일마다 예배 드리러 가는 걸 보고 한번쯤 꼭 가보고 싶다고 생각했는데, 이렇게 빨리 교회에 나가게 될 줄은 몰랐지!! 예전에는 일 주일에 한 번씩 영어 회화 스터디에서 만났는데, 지금은 교회에서 만나는 우리 커플 ㅎㅎ 함께 예배드리니 행복해!
+                                민재가 주일마다 예배 드리러 가는 걸 보고 한번쯤 꼭 가보고 싶다고 생각했는데, 이렇게 빨리 교회에 나가게 될 줄은 몰랐지 뭐야. 예전에는 일 주일에 한번씩 영어 회화 스터디에서 만났는데, 지금은 교회에서 만나는 우리 커플 ㅎㅎ 기쁜 마음으로 함께 예배드리니 행복해!
                                 </Typography>
                             </CardContent>
                             <CardActions disableSpacing>
-                                <IconButton aria-label="add to favorites">
+                            <IconButton aria-label="add to favorites" sx={{ "&:hover" : { color : 'red'}}} onClick={()=>{alert("좋아요♥︎")}}>
                                 <FavoriteIcon />
                                 </IconButton>
                             </CardActions>
@@ -237,7 +236,7 @@ function Blog(props) {
                                 </Typography>
                             </CardContent>
                             <CardActions disableSpacing>
-                                <IconButton aria-label="add to favorites">
+                            <IconButton aria-label="add to favorites" sx={{ "&:hover" : { color : 'red'}}} onClick={()=>{alert("좋아요♥︎")}}>
                                 <FavoriteIcon />
                                 </IconButton>
                             </CardActions>

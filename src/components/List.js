@@ -1,6 +1,6 @@
 import React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import { Container, IconButton } from '@mui/material';
+import { Container } from '@mui/material';
 import FavoriteTwoToneIcon from '@mui/icons-material/FavoriteTwoTone';
 
 function List(props) {
@@ -50,9 +50,7 @@ function List(props) {
                     color: 'rgba(0,0,0,0.6)',
                     textDecoration: 'underline'
                  }}>
-                    <IconButton aria-label="add to favorites">
-                    <FavoriteTwoToneIcon />
-                    </IconButton>
+                    <FavoriteTwoToneIcon sx={{ "&:hover" : { fontSize:30 } }} />
                     must-go Restaurant
                 </div>
         <div style={{ height: 400, width: '100%'}}>
