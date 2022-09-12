@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 👩‍❤️‍👨염장 커플앨범, 조슈앤(조슈아 & 앤) 커플 다이어리
+신촌 코리아 아카데미 프론트엔드 과정 과제로 만든, 커플 다이어리 
+<br>
 
-## Available Scripts
+React 수업 극 초반에 만들어서 완성도가 심히 떨어지는 이 작품을, 왜 굳이 포폴에 넣었을까?
+<h3> ❗️ 김혜연의 성실함을 대표님, 면접관님께 어필하기 위하여 </h3>
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+완성작 보러가기 🔍
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h3> https://josuanne-couple-diary.netlify.app/ </h3>
+<br />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✔️ 프로젝트 개요
+### `진행 동기` 
+- 신촌 코리아 IT 아카데미 리액트 수업 극 초반, 디자인 라이브러리 수업 때 진행한 과제.
+- 강사님께서 `React`와 `디자인 라이브러리` (부트스트랩, MUI 등)를 이용해 실제로 접속할 수 있는 웹페이지를 만들어오라는 과제를 내 주셨다.
+- `배포`까지 완벽하게 해야 제출 인정됨 
+- 어떤 사이트를 만들어볼지 고민하다가, 사진으로 시각적인 효과빨(?)을 받을 수 있는 커플 다이어리를 만들어보기로 결정했다.
 
-### `npm test`
+### `과정`
+👍 신촌 코리아 아카데미 프론트엔드 정규반 - React 과정 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `진행 기간`
+2022.05.03 ~ 2022.05.05
 
-### `npm run build`
+### `작업자`
+김혜연
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `사용 기술 및 개발환경`
+- 개발환경 : PC (Mac)
+- 개발도구 : VSC
+- 개발언어 및 라이브러리, 프레임워크 : HTML, CSS, javascript, REACT 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br />
 
-### `npm run eject`
+## ✔️ Point
+🌸 수업 시간에 배운 디자인 라이브러리의 컴포넌트들을 최대한 활용해서 홈페이지 만들기 🌸
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `컨셉, 방향성`
+- React와 디자인 라이브러리를 배우기 시작한지 얼마 되지 않은, 극 초반 시기라서 완성도가 약간 아쉽다.
+- React Hooks를 배우기 전이라 사이트에 동적인 효과가 없다. (alert 정도...) 
+- 효과를 많이 사용하기보다는, 그럴듯해보이는 웹페이지를 하나 만드는 데 의의를 뒀다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `TMI`
+- 누군가 예비 개발자로서의 자질에 대해 물어올 때, 다른 건 몰라도 이 프로젝트에 관한 이야기는 꼭 해준다.
+- 어린이날 연휴 전 받은 과제인데, 모든 휴일을 반납하고 이 프로젝트에만 매달렸다.
+- 굉장히 간단해 보이는 사이트이지만, 컴포넌트를 하나 추가할 때마다 발생하는 충돌 오류와 디자인 오류를 해결하며 진행하느라 시간이 오래 걸렸다.
 
-## Learn More
+<img src="https://raw.githubusercontent.com/Anne-Hyeyeon/josuanne_couplediary/main/src/assets/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-09-13%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%201.38.53.png" alt="anne" width="50%" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- 나중에 과제를 제출하고 나니, 강사님께서 수강생 35명 중 <b>과제를 제출한 사람이 나밖에 없었다</b>는 사실을 알려 주셨다.
+- 이번 일을 계기로 강사님께 굉장히 좋은 평가를 받아, 한 달 뒤 진행된 팀 프로젝트에서 (직장인 신분이었음에도) 팀장을 맡게 된다.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
+<h4>수강생 중 직장인은 고작 한두 명에 불과했다. 나는 직장일과 공부를 병행해야 한다는 압박감이 그 당시에 있어서인지, 오히려 전업 준비생들보다 훨씬 더 과제나 프로젝트에 진지하게 임했던 것 같다. 연휴는 물론 중간중간 있었던 회사 점심시간까지 몽땅 반납하며 진행했던, 리액트로 만든 첫번째 웹페이지라 기억에 남는다. 스트레스는 많이 받았지만, 마지막에 강사님께 칭찬을 들으니 마음속이 뿌듯함으로 가득 채워지는 게 느껴졌다. 한다면 하는 나, 약속은 꼭 지키는 나. 이런 내 모습에 대해 면접에서 꼭 얘기할 기회가 있었으면 좋겠다!</h4>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+</br>
 
-### Analyzing the Bundle Size
+## ✔️ 사용한 기술, 프로젝트를 통해 얻은 지식
+![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br />
+<br />
